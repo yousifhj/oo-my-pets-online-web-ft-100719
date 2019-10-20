@@ -29,7 +29,7 @@ class Owner
   def cats 
     my_cats = []
     Cats.all.each do |cat|
-      my_cat << cat if cat.owner == self 
+      my_cats << cat if cat.owner == self 
   end 
   my_cats 
 end 
