@@ -28,7 +28,7 @@ class Owner
   
   def cats 
     cats = []
-    Cats.all
+    Cats.all.each do |cats|
   end 
   
 end
