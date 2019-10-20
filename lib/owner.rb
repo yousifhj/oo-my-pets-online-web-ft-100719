@@ -50,5 +50,7 @@ class Owner
     Dog.new(name, self)
   end 
     
+    def waslk_dog(mood)
+    end 
   
 end
