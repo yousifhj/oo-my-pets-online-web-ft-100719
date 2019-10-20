@@ -31,5 +31,7 @@ class Owner
     Cats.all.each do |cat|
       my_cat << cat if cat.owner == self 
   end 
+  my_cats 
+end 
   
 end
