@@ -29,7 +29,7 @@ class Owner
   def cats 
     my_cats = []
     Cats.all.each do |cat|
-      my_cat
+      my_cat << cat 
   end 
   
 end
