@@ -42,7 +42,9 @@ class Owner
     my_dogs
    end 
   
-  def buy_cat
+  def buy_cat(cat)
+    Cat.new(name)
+  end 
     
   
 end
