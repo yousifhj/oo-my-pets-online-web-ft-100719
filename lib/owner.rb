@@ -34,7 +34,7 @@ class Owner
     my_cats 
   end 
   
-  def dog 
+  def dogs 
     my_dogs = []
     Dog.all.each do |dog|
       my_dogs << dog if dog.owner == self
